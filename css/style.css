@@ -215,14 +215,19 @@ a {
 }
 .blog-title{
     width: 250px;
-    font-size: 11px;
+    font-size: 9px;
     color: gray;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .blog-footer{
     display: flex;
     justify-content: space-around;
     width: 250px;
     color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
 }
 .blog-card{
     position: relative;
@@ -312,7 +317,7 @@ table th {
     position: relative;
 }
 .recruit-info img{
-    width: 50vw;
+    width: 48vw;
 }
 .recruit-info a{
     position: absolute;
@@ -320,7 +325,7 @@ table th {
     left: 25%;
 }
 .interview img{
-    width: 50vw;
+    width: 48vw;
 }
 .interview a{
     position: absolute;
