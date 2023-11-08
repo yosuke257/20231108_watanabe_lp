@@ -1,0 +1,396 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+.header{
+    height: 70px;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header-img{
+    height: 50px;
+}
+.header-nav-list{
+    display: flex;
+}
+.header-nav-item{
+    margin-right: 10px;
+}
+
+.firstview{
+    position: relative;
+}
+.firstview-img{
+    margin-left: auto;
+    display: block;
+    width: 60%;
+}
+.firstview-content{
+    color: palevioletred;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.firstview-title{
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.blue{
+    color: aqua;
+}
+.firstview-text-en{
+    color: gray;
+    font-weight: 300;
+}
+.news{
+    margin-top: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.news-pickup{
+    color: palevioletred;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursivs;
+    margin-left: 40px;
+}
+.news-title{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.news-list{
+    display: table;
+    display: block;
+    color: gray;
+}
+.news-date{
+    margin-right: 20px;
+    color: gray;
+}
+.news-icon{
+    background-color: palevioletred;
+    border-radius: 15px;
+    margin-right: 20px;
+    color: white;
+    padding: 0 5px;
+}
+.news-item{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.border{
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.news p{
+    line-height: 0.1;
+}
+.work{
+    background-color: gainsboro;
+}
+.work-header-pickup{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursivs;
+    color: palevioletred;
+    padding-top: 10px;
+}
+.work-header-title{
+    font-size: 30px;
+    color: grey;
+    font-weight: bold;
+}
+.work-header p{
+    line-height: 0.1;
+}
+.work-header{
+    text-align: center;
+}
+.work-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.work-conteiner-img img{
+    width: 300px;
+    margin-top: 20px;
+}
+.work-conteiner-text{
+    margin-right: 130px;
+    color: grey;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.service-left{
+    width: 400px;
+    background-color: blueviolet;
+    position: relative;
+}
+.service-left p{
+    font-size: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.service-left img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.service-right{
+    width:400px;
+}
+.service-top img{
+    width: 150px;
+    display: block;
+    margin-right: auto;
+}
+.service-top{
+    display: flex;
+    background-color: palevioletred;
+}
+.service-bottom{
+    display: flex;
+    background-color: pink;
+}
+.service-bottom img{
+    width: 150px;
+    display: block;
+    margin-right: auto;
+}
+.service-top p{
+    font-size: 13px;
+}
+.service-top span{
+    font-weight: bold;
+    line-height: 3;
+}
+.service-bottom p{
+    font-size: 13px;
+}
+.service-bottom span{
+    font-weight: bold;
+    line-height: 3;
+}
+.service-left-title{
+    text-align: center;
+    font-weight: bold;
+}
+.service-header{
+    color: black;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.service-header-pickup{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursivs;
+    color: palevioletred;
+    line-height: 0.1;
+}
+.service-header-title{
+    font-size: 30px;
+    color: grey;
+    font-weight: bold;
+}
+.blog{
+    background-color: gainsboro;
+}
+.blog-img img{
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+.blog-title{
+    width: 250px;
+    font-size: 11px;
+    color: gray;
+}
+.blog-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    color: gray;
+}
+.blog-card{
+    position: relative;
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.blog-top{
+    position: absolute;
+    top: -16px;
+    background-color: palevioletred;
+    border-radius: 10px 0 0 0;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+}
+.blog-header{
+    width: 900px;
+    margin: 0 auto;
+}
+.blog-header-pickup{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursivs;
+    color: palevioletred;
+    line-height: 0.1;
+    padding-top: 50px;
+}
+.blog-btn{
+    border-radius: 50px;
+    margin: 50px auto;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    text-align: center;
+    display: block;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border: 3px solid palevioletred;
+    }
+    .blog-btn a{
+        color: palevioletred;
+    }
+    .blog{
+        padding-bottom: 10px;
+    }
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #dedede;
+}
+.table-header{
+    width: 60%;
+    margin: 0 auto;
+}
+.table-header p{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Gloria Hallelujah', cursivs;
+    color: palevioletred;
+    line-height: 0.1;
+    margin-top: 80px;
+}
+.recruit{
+    display: flex;
+    position: relative;
+}
+.recruit-info img{
+    width: 50vw;
+}
+.recruit-info a{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.interview img{
+    width: 50vw;
+}
+.interview a{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+.recruit a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mail h3{
+    text-align: center;
+    color: gray;
+    margin-top: 80px;
+}
+
+.mail-btn{
+    display: block;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    font-weight: bold;
+    background: palevioletred;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0px 10px purple;
+    position: relative;
+    margin-top: 20px;
+}
+.mail-btn a{
+    color: white;
+}
+.mail-btn img{
+    width: 20px;
+    position: absolute;
+    left: 20px;
+}
+.line p{
+    border-left: 5px solid palevioletred;
+    padding: 2px 8px;
+    text-align: center;
+}
+.wrap {
+    display: flex;
+    text-align: center;
+}
+
+.line-left{
+    height: 50px;
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.line {
+    margin: 0 1rem;
+    width: 4px;
+    background-color: palevioletred;
+}
+
+.line-right{
+    height: 50px;
+    flex: 1;
+    margin-left: 1rem;
+}
+.footer{
+    background-color: #dedede;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
